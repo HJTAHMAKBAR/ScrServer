@@ -104,7 +104,7 @@ export default ({ onSubmit, onReset }) => {
         }}
       >
         <C.Section>
-          <C.SectionTitle>Search</C.SectionTitle>
+          <C.SectionTitle>搜索</C.SectionTitle>
           <TwoColumns>
             <div>
               <Cell>
@@ -214,10 +214,10 @@ export default ({ onSubmit, onReset }) => {
           <Cell>
             <ButtonSet>
               <Button variant="contained" color="primary" type="submit">
-                Search
+                搜索
               </Button>
               <Button variant="outlined" color="default" onClick={handleResetClick}>
-                Reset
+                重置
               </Button>
             </ButtonSet>
           </Cell>
