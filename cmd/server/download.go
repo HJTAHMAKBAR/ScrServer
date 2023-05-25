@@ -330,7 +330,8 @@ func (s *searcher) refreshData(initialDir string) (*DownloadStats, error) {
 	ssis := precomputeCSLEntities[csl.SSI](consolidatedLists.SSIs, s.pipe)
 	uvls := precomputeCSLEntities[csl.UVL](consolidatedLists.UVLs, s.pipe)
 	isns := precomputeCSLEntities[csl.ISN](consolidatedLists.ISNs, s.pipe)
-	fses := precomputeCSLEntities[csl.FSE](consolidatedLists.FSEs, s.pipe)
+	fses := precomputeCS
+	LEntities[csl.FSE](consolidatedLists.FSEs, s.pipe)
 	plcs := precomputeCSLEntities[csl.PLC](consolidatedLists.PLCs, s.pipe)
 	caps := precomputeCSLEntities[csl.CAP](consolidatedLists.CAPs, s.pipe)
 	dtcs := precomputeCSLEntities[csl.DTC](consolidatedLists.DTCs, s.pipe)

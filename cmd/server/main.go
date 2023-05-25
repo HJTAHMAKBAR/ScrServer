@@ -42,6 +42,7 @@ var (
 )
 
 func main() {
+	// 解析命令行参数
 	flag.Parse()
 
 	runtime.GOMAXPROCS(*flagMaxProcs)
